@@ -1,8 +1,8 @@
 const Previewer = (props) => {
     return (
-    <div id="preview">
+    <div id="previewContainer">
       <h3>Previewer</h3>
-      <p>{props.text}</p>
+      <div id="preview" dangerouslySetInnerHTML={{ __html: props.text }}></div>
     </div>
     )
 }

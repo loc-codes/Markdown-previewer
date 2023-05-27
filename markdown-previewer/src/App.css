@@ -1,0 +1,72 @@
+#root {
+    background-color: #87b587;
+    justify-content: center;
+    align-items: center;
+    border: 1vw solid;
+    color: #333;
+    font-size: 3vw;
+}
+    
+
+#editorContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 7.5vw;
+    border: 0.5vw solid black;
+    width: 80vw;
+    margin-top: 2vh;
+    box-shadow: 1px 1px 10px 2px #3a5f3a;
+}
+
+#previewContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 2vw;
+    border: 0.5vw solid black;
+    width: 90vw;
+    box-shadow: 1px 1px 10px 2px #3a5f3a;
+}
+
+#editor {
+    height: 20vh;
+    border: 0.5vw solid black;
+    background-color: #c0d8c0;
+    font-size: 3vw
+   
+}
+
+#preview {
+    border: 0.5vw solid black;
+    background-color: #c0d8c0;
+    padding-left: 1vw;
+}
+
+img {
+    width: 87vw
+}
+
+pre {
+  color: black;
+  background-color: #f5f5f5bf;
+  width: 87vw;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+
+textarea::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  textarea::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  textarea::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  

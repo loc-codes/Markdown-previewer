@@ -1,14 +1,16 @@
+import initialText from "../text"
 
 const Editor = (props) => {
+
     const handleChange = (event) => {
         props.updatePreviewer(event.target.value)
     }
 
 
     return (
-    <div>
+    <div id="editorContainer">
       <h3>Editor</h3>
-      <textarea onChange={handleChange} id="editor" placeholder="Type some markdown"></textarea>
+      <textarea defaultValue={initialText} onChange={handleChange} id="editor" placeholder="Type some markdown"></textarea>
     </div>
     )
 }
