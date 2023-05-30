@@ -9,7 +9,7 @@ const Editor = (props) => {
 
     return (
     <div id="editorContainer">
-      <h3>Editor</h3>
+      <h3 className ="title" id="editor-title">Editor</h3>
       <textarea defaultValue={initialText} onChange={handleChange} id="editor" placeholder="Type some markdown"></textarea>
     </div>
     )
